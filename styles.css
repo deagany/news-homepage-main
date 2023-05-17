@@ -1,0 +1,170 @@
+
+/* Off-white: hsl(36, 100%, 99%)
+Grayish blue: hsl(233, 8%, 79%)
+Dark grayish blue: hsl(236, 13%, 42%)
+Very dark blue: hsl(240, 100%, 5%) */
+
+@font-face {
+    font-family: 'Inter', sans-serif;
+    src: url('./assets/fonts/Inter-VariableFont_slnt\\,wght.ttf');
+}
+
+nav {
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    height: 110px;
+}
+
+.elements {
+    margin-right: 3em;
+}
+
+.nav-wrapper {  
+    justify-content: space-between;  
+    margin-right: auto;
+}
+
+body {
+    padding: 10rem;
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black; 
+}
+
+a:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+.firstCard {
+    border-radius: 10;
+    padding: 10;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+.futureWrapper {
+    display: flex;
+}
+.future {
+    justify-content: center;
+    width: 20rem;
+    height: auto;
+    padding: 1rem 1rem;
+    font-size: 2.8rem;
+    font-weight: 800;
+
+}
+
+.web-text {  
+
+    width: 20rem;
+    flex-direction: column;
+
+}
+
+.web-text p {
+    font-size: 1.2rem;
+    color: hsl(236, 13%, 42%);
+}
+
+.container {
+    outline: red solid 1px;
+    background-color: hsl(36, 100%, 99%);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 10;
+    flex-wrap: wrap;
+}
+
+.banner-container img {
+    flex-basis: 60%;
+    width: 45rem;
+    height: auto;
+    object-fit: cover;
+    flex-direction: column;
+}
+
+.new-container {
+    margin-left: 2em;
+    outline: blue solid;
+    padding: 1rem;
+    display: flex;
+    background-color: hsl(240, 100%, 5%);
+    font-family: 'Inter', sans-serif;
+    color: white;
+    height: auto;
+    width: 50vh;
+    flex-direction: column;
+}
+
+.new h2 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: 0rem;
+    color: hsl(35, 77%, 62%);
+}
+.new p {
+    font-size: 1 rem;
+    font-weight: 300;
+    margin-bottom: .8rem;
+    color: hsl(233, 8%, 79%)
+
+}
+
+.new h5 {
+    font-size: 1.5rem;
+}
+
+.new p::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid hsl(233, 8%, 79%);
+    margin-top: 10px; /* Adjust the margin as desired */
+  }
+  
+
+
+.ReadMore {
+    margin-left: 5em;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    height: 3rem;
+    width: 12rem;
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+    letter-spacing: .3rem;
+    
+}
+
+.banner-wrapper {
+    display: flex;
+    flex-direction: row;
+    outline: red solid;
+}
+
+.Cards {
+    flex-direction: row;
+    display:flex;
+    flex-basis: 1 0 17%;
+    margin-top: 2rem;
+}
+
+.Card h3 {
+    font-size: 2rem;
+    color: hsl(233, 8%, 79%);
+}
+
+.Card p {
+    font-size: 1rem;
+    color: hsl(233, 8%, 79%);
+}
+.card-image-containers {
+    flex-basis: 1 0 16%;
+}
